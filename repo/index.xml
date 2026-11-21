@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fdroid>
+	<repo icon="icon.png" name="Molly4Watch" pubkey="308204ec308202d4a003020102020900bffba0e96199c58b300d06092a864886f70d01010b050030233110300e060355040b1307462d44726f6964310f300d060355040313066665646f72613020170d3236313132313033313335305a180f32303534303430383033313335305a30233110300e060355040b1307462d44726f6964310f300d060355040313066665646f726130820222300d06092a864886f70d01010105000382020f003082020a0282020100ab3cafd1de5bbe42374a187cc2e104c1f18503725c61711309d40deddcc1f3430d21a6f59e83fb72ed5809005a2631a411c9ae44b8847a5e67429f7ac778bb10d0c020cc728b38342c9d514848910ef5ba0568360239dfeef517aa655dd80a58ea8808f3c0998d889b6a44530fba9536d4eca61a6580376bdb6a3678a69657cbf2c70debc20ba55ebb6dd1a67bb0aef0b0c85ad24ba691ea3738cf2e9e558caf3bcfa52ff14a043a135759158f7671ac86a8fb5dc0560ceab76230ec686eb01a1af55b0983e1c1f609f791aa994d99d89df60f55fc43ff423c5e993069b3be9658a80e4126144f10bbdd125e97df6195f8fb04f1289bdbb81120e0f52479e14c25f32d03b7170e34f3d47b8832e915476fab191c490e7e90a99639cda528672ede9e850fca4a520ebd058c79d16ba0e55ad8dd1d4f3567cdf6aa93997ca06418d64deaa0cdc302301378d8427ee8c0454f3248fb0edd608d2f09e697c0ec0d9fe35c8c438f9b5d881ceb285aa434525ed6372a331dddfe3aada1467f17266c200cc634faa4c1c9d36d9f9fddd0cdbd5ca6524cf38bcb1bb5c04f208313c3fbba65f4b1c56ae7692646a39cd9f434aaa8eb595474a94b7d54565a928b2cd6c8c916905a935b312ddf8d383af87ff0316b12a94d05e4be82bd1099e3459186ecbf18f6bec8f1344dc8a7bd53ca60af49a4925c074b74c1d002062c262890b91e730203010001a321301f301d0603551d0e0416041445915a874b38964d62318c5ce9255de39859d404300d06092a864886f70d01010b0500038202010063e2ff40cdb327719607bdc72a55d4e528bc8517c24bb0f2ba54747350464a1e1c4122124da93627c8b291b0139e60cd90c0793ae579a1d7eeb44cb6c8a5ce05e5a93554a71044b6a873019129feb6d2ed260f9488b6e3bbc2b43ebf1eeebaa92a14a178cff85b3bd65cd05de7472d00b25bf95b23e78a9dd091b3cdd5b14e5a64ff0449fbe3432999d530e48fdd69ad2fb9aabd3351e84f588a26f41cd2fc54b4d4c0daacc39460305f2a314948e02f7a3acf3b7e03129e8868944be8d7c102e14b6bf19e897bd3448a7ce73be80ea467730f4821a470941c03ea50bf45c8f9de9d693429bc62086626cf98b5dca4c9eaf427a7a75923e9dd0c3dc29e7aef504e7312f6ebe0e69fd99c009ab0bd5d034f1173b3c6584e47f1da59214c55408a7ba0ec3671111f468cf3a6e622204e0f663bf71933fa45d8e77d41fe514e9b15b2cf584ccb5f011f71767a1367e37cd5306004ea0f88a9b51c9a886e9c91292274b8dc077914e2f0db1a46d12ffb44100405acf3348611875784972020b485212d78549d7de7774ee1a7df81ea7360ceda149e17d6a6b63acbd3260b389cd106c35a805e0cc0c337c340c180467e0eba0576f977754c20038a6747cecb2f930c3f8623ac383ece08de6395233ebe76ae92a29741ef604830dc93f77d5f9907c750a440f7e8d730fcbc12df15015ee6279ce41a6c4c1f7136a6b6d51655a5310a" timestamp="1795232458" url="https://thewindwalkerx.github.io/Molly4Watch-fdroid/repo" version="20002">
+		<description>Unofficial Molly builds with a Pixel Watch companion. Read, reply and react to your Molly chats from your wrist. Not affiliated with the Molly project. Source: https://github.com/TheWindWalkerX/Molly4Watch</description>
+	</repo>
+	<application id="im.molly.app">
+		<id>im.molly.app</id>
+		<added>2026-11-21</added>
+		<lastupdated>2026-11-21</lastupdated>
+		<name>Molly (Molly4Watch)</name>
+		<summary>Molly with a Pixel Watch companion gateway</summary>
+		<desc>Molly, the hardened Signal fork, with a small signature-protected gateway that lets the
+Molly Wear relay show your chats on a Pixel Watch.
+
+* Install &quot;Molly Wear relay&quot; from this repo too, and the watch app from the GitHub release.
+* Signed with this project's own key: it cannot update the official Molly. Make a backup,
+  uninstall Molly, install this one, then restore.
+* Built against Signal's official libsignal while Molly's artifacts are unavailable, so
+  Molly's proxy-only libsignal change is not included yet.
+
+Unofficial build, not affiliated with or endorsed by the Molly project.</desc>
+		<license>AGPL-3.0-only</license>
+		<categories>Internet</categories>
+		<category>Internet</category>
+		<web>https://github.com/TheWindWalkerX/Molly4Watch</web>
+		<source>https://github.com/TheWindWalkerX/Molly4Watch</source>
+		<tracker>https://github.com/TheWindWalkerX/Molly4Watch/issues</tracker>
+		<author>Cloud Kaffee</author>
+		<marketversion></marketversion>
+		<marketvercode>171904</marketvercode>
+		<package>
+			<version>8.19.2-4</version>
+			<versioncode>171904</versioncode>
+			<apkname>Molly4Watch-v0.1.0-phone-molly.apk</apkname>
+			<hash type="sha256">39b8865284609c6fcea16db8bc1aaebba3171de8103752cb2f6c2a0611efc769</hash>
+			<size>96500099</size>
+			<sdkver>27</sdkver>
+			<targetSdkVersion>35</targetSdkVersion>
+			<added>2026-11-21</added>
+			<sig>6c1d2e1615aaeb6c327eb11b24092edf</sig>
+			<permissions>ACCESS_COARSE_LOCATION,ACCESS_FINE_LOCATION,ACCESS_NETWORK_STATE,ACCESS_NOTIFICATION_POLICY,ACCESS_WIFI_STATE,AUTHENTICATE_ACCOUNTS,BLUETOOTH,BLUETOOTH_CONNECT,CAMERA,CHANGE_NETWORK_STATE,CHANGE_WIFI_STATE,DOWNLOAD_WITHOUT_NOTIFICATION,FOREGROUND_SERVICE,FOREGROUND_SERVICE_CAMERA,FOREGROUND_SERVICE_CONNECTED_DEVICE,FOREGROUND_SERVICE_DATA_SYNC,FOREGROUND_SERVICE_MEDIA_PLAYBACK,FOREGROUND_SERVICE_MEDIA_PROJECTION,FOREGROUND_SERVICE_MICROPHONE,FOREGROUND_SERVICE_PHONE_CALL,FOREGROUND_SERVICE_REMOTE_MESSAGING,INSTALL_SHORTCUT,INTERNET,MANAGE_OWN_CALLS,MODIFY_AUDIO_SETTINGS,NEARBY_WIFI_DEVICES,POST_NOTIFICATIONS,RAISED_THREAD_PRIORITY,READ_APP_BADGE,READ_CALL_STATE,READ_CONTACTS,READ_EXTERNAL_STORAGE,READ_MEDIA_IMAGES,READ_MEDIA_VIDEO,READ_MEDIA_VISUAL_USER_SELECTED,READ_PHONE_NUMBERS,READ_PHONE_STATE,READ_PROFILE,READ_SYNC_SETTINGS,RECEIVE_BOOT_COMPLETED,RECORD_AUDIO,REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,REQUEST_INSTALL_PACKAGES,SCHEDULE_EXACT_ALARM,USE_BIOMETRIC,USE_CREDENTIALS,USE_EXACT_ALARM,USE_FINGERPRINT,USE_FULL_SCREEN_INTENT,VIBRATE,WAKE_LOCK,WRITE_CONTACTS,WRITE_EXTERNAL_STORAGE,WRITE_SYNC_SETTINGS,com.anddoes.launcher.permission.UPDATE_COUNT,com.android.launcher.permission.INSTALL_SHORTCUT,com.google.android.c2dm.permission.RECEIVE,com.htc.launcher.permission.READ_SETTINGS,com.htc.launcher.permission.UPDATE_SHORTCUT,com.huawei.android.launcher.permission.CHANGE_BADGE,com.huawei.android.launcher.permission.READ_SETTINGS,com.huawei.android.launcher.permission.WRITE_SETTINGS,com.majeur.launcher.permission.UPDATE_BADGE,com.oppo.launcher.permission.READ_SETTINGS,com.oppo.launcher.permission.WRITE_SETTINGS,com.sec.android.provider.badge.permission.READ,com.sec.android.provider.badge.permission.WRITE,com.sonyericsson.home.permission.BROADCAST_BADGE,com.sonymobile.home.permission.PROVIDER_INSERT_BADGE,im.molly.app.ACCESS_SECRETS,im.molly.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION,im.molly.wear.permission.BRIDGE,me.everything.badger.permission.BADGE_COUNT_READ,me.everything.badger.permission.BADGE_COUNT_WRITE</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="28" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+			<nativecode>arm64-v8a,armeabi-v7a,x86_64</nativecode>
+			<features>android.hardware.camera</features>
+		</package>
+	</application>
+	<application id="im.molly.app.wear">
+		<id>im.molly.app.wear</id>
+		<added>2026-11-21</added>
+		<lastupdated>2026-11-21</lastupdated>
+		<name>Molly Wear relay</name>
+		<summary>Bridges Molly and your Pixel Watch</summary>
+		<desc>Phone-side helper for Molly4Watch. It talks to the Molly Wear app on your watch over the
+Wear Data Layer and reads your chats from Molly through a local, same-key-only channel.
+
+* Nothing is shown on the watch while Molly is locked.
+* Needs the &quot;Molly (Molly4Watch)&quot; app from this repo (same signing key).
+* Install the watch app from the GitHub release: https://github.com/TheWindWalkerX/Molly4Watch/releases/latest</desc>
+		<license>AGPL-3.0-only</license>
+		<categories>Internet</categories>
+		<category>Internet</category>
+		<web>https://github.com/TheWindWalkerX/Molly4Watch</web>
+		<source>https://github.com/TheWindWalkerX/Molly4Watch</source>
+		<tracker>https://github.com/TheWindWalkerX/Molly4Watch/issues</tracker>
+		<author>Cloud Kaffee</author>
+		<marketversion></marketversion>
+		<marketvercode>1</marketvercode>
+		<antifeatures>NonFreeDep</antifeatures>
+		<package>
+			<version>0.1.0</version>
+			<versioncode>1</versioncode>
+			<apkname>Molly4Watch-v0.1.0-phone-relay.apk</apkname>
+			<hash type="sha256">d683ca8da4d4c8338d076ab899a934220220824b05d36f8580cc8d7c255f18b1</hash>
+			<size>1000398</size>
+			<sdkver>27</sdkver>
+			<targetSdkVersion>35</targetSdkVersion>
+			<added>2026-11-21</added>
+			<sig>6c1d2e1615aaeb6c327eb11b24092edf</sig>
+			<permissions>im.molly.app.wear.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION,im.molly.wear.permission.BRIDGE</permissions>
+		</package>
+	</application>
+</fdroid>

@@ -1,0 +1,21 @@
+AntiFeatures:
+  NonFreeDep:
+    en-US: Uses Google Play services (Wear Data Layer) to talk to the watch. Molly itself stays free of it.
+Categories:
+  - Internet
+License: AGPL-3.0-only
+AuthorName: Cloud Kaffee
+WebSite: https://github.com/TheWindWalkerX/Molly4Watch
+SourceCode: https://github.com/TheWindWalkerX/Molly4Watch
+IssueTracker: https://github.com/TheWindWalkerX/Molly4Watch/issues
+Name: Molly Wear relay
+Summary: Bridges Molly and your Pixel Watch
+Description: |-
+  Phone-side helper for Molly4Watch. It talks to the Molly Wear app on your watch over the
+  Wear Data Layer and reads your chats from Molly through a local, same-key-only channel.
+
+  * Nothing is shown on the watch while Molly is locked.
+  * Needs the "Molly (Molly4Watch)" app from this repo (same signing key).
+  * Install the watch app from the GitHub release: https://github.com/TheWindWalkerX/Molly4Watch/releases/latest
+AutoUpdateMode: None
+UpdateCheckMode: None

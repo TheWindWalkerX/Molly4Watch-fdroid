@@ -1,0 +1,22 @@
+Categories:
+  - Internet
+License: AGPL-3.0-only
+AuthorName: Cloud Kaffee
+WebSite: https://github.com/TheWindWalkerX/Molly4Watch
+SourceCode: https://github.com/TheWindWalkerX/Molly4Watch
+IssueTracker: https://github.com/TheWindWalkerX/Molly4Watch/issues
+Name: Molly (Molly4Watch)
+Summary: Molly with a Pixel Watch companion gateway
+Description: |-
+  Molly, the hardened Signal fork, with a small signature-protected gateway that lets the
+  Molly Wear relay show your chats on a Pixel Watch.
+
+  * Install "Molly Wear relay" from this repo too, and the watch app from the GitHub release.
+  * Signed with this project's own key: it cannot update the official Molly. Make a backup,
+    uninstall Molly, install this one, then restore.
+  * Built against Signal's official libsignal while Molly's artifacts are unavailable, so
+    Molly's proxy-only libsignal change is not included yet.
+
+  Unofficial build, not affiliated with or endorsed by the Molly project.
+AutoUpdateMode: None
+UpdateCheckMode: None
